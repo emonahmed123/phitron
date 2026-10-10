@@ -10,7 +10,7 @@ Phitron is an online program that covers the core of Computer Science and Engine
 | ---------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------- |
 | [intro-p/](intro-p/)   | Getting started: my first C program     | `test.c` (Hello World)                                                                        |
 | [module01/](module01/) | Output, variables, data types and input | `first.c` (`int`, `float`, `char` with `printf`), `bool.c` (`stdbool.h`), `input.c` (`scanf`) |
-| [module02/](module02/) | Arithmetic operators                    | `arithmetic.c` (`+ - * /`), `mod.c` (`%` remainder)                                           |
+| [module02/](module02/) | Arithmetic, relational and logical operators, conditionals | `arithmetic.c` (`+ - * /`), `mod.c` (`%` remainder), `relationalop.c` (`> < ==`), `logical.c` (`&&`, `\|\|`), `condition.c` (`if`/`else`, else-if ladder, nested if) |
 
 I'll add more folders as the course goes on.
 
@@ -19,7 +19,7 @@ I'll add more folders as the course goes on.
 - [x] Introduction to C and setting up the environment
 - [x] Variables, data types and input/output
 - [x] Arithmetic operators
-- [ ] Conditionals (`if`, `else`, `switch`)
+- [x] Conditionals (`if`, `else`)
 - [ ] Loops (`for`, `while`, `do-while`)
 - [ ] Arrays and strings
 - [ ] Functions and recursion
