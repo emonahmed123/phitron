@@ -51,8 +51,8 @@ int main() {
     int a = 5;
     int b = 10;
 
-    if (a > b) {
-        printf("%d is greater than %d\n", a, b);
+    if (a%b==0 || b%a==0) {
+        printf("%d is divisible by %d\n", a, b);
     } else {
         if (a < b) {
             printf("%d is less than %d\n", a, b);
@@ -63,3 +63,6 @@ int main() {
 
     return 0;
 }
+
+
+
