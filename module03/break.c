@@ -2,7 +2,8 @@
 int main() {
     int a;
     scanf("%d", &a);
-    for(int i = 1; i <= a; i++) {
+    int i = 1;
+    while(i <= a) {
         if(i == 5) {
             break;
         }
