@@ -1,0 +1,1 @@
+Array elements are: 10 12 34 56 13399472
