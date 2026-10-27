@@ -14,6 +14,6 @@ int main() {
   }
  int idx,val;
  scanf("%d %d",&idx,val);
-     
+     for (int =n; )
     return 0;
 }
