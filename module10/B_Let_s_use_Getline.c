@@ -7,5 +7,7 @@ int main(){
   {
     printf("%c",s[i]);
   }
+
+
   return 0;
 }
