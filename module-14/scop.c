@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//gobalscope
+int test=10;
 
 int sum(int a, int b) {
     return a + b;
