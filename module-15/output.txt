@@ -1,0 +1,2 @@
+Address of x in fun: 000000000061FE20
+Value of x in fun: 10
