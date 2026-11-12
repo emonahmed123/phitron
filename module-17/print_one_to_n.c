@@ -1,24 +1,22 @@
 #include <stdio.h>
 
+void hello(int i)
+{
 
-void hello(int i){
+  if (i > 5)
+  {
 
-  
-
-  if(i>5){
-
-   return ;
+    return;
   };
-  printf("%d \n",i);
-  hello(i+1);
-  
+  printf("%d \n", i);
+  hello(i + 1);
 }
 
-
-int main() {
-  int i=1;
+int main()
+{
+  int i = 1;
 
   hello(i);
 
-    return 0;
+  return 0;
 }
