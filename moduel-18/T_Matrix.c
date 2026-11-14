@@ -33,7 +33,7 @@ int main()
     
   }
 
-  printf("%d", (secsum - mainsum));
+  printf("%d", secsum - mainsum);
 
   return 0;
 }
