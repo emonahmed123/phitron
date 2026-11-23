@@ -12,38 +12,43 @@ int main()
       scanf("%d", &a[i][j]);
     }
   }
-  int flag = 0;
+
+  if (r != c)
+  {
+    printf("NO\n");
+    return;
+  }
+  int flag = 1;
   if (r == c)
   {
     for (int i = 0; i < r; i++)
     {
       for (size_t j = 0; i < c; i++)
       {
-        if(i==j){
-          
+        if (i== j ||i+j==r-1)
+        {
+          if(a[i][j] !=1) flag=0;
         }
         else
         {
 
           if (a[i][j] != 0)
           {
-            flag = 1;
+            flag = 0;
             printf("no");
           }
         }
       }
     }
 
-  
-    if (flag==0)
+    if (flag == 1)
     {
-      printf("yes");
+      printf("YES\n");
     }
-    
   }
   else
   {
-    printf("this is not primary diagonal");
+    printf("NO\n");
   }
 
   return 0;
