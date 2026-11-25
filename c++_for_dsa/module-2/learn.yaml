@@ -1,0 +1,60 @@
+application:  
+ #the name of the application;
+  
+  name: MyApp 
+
+  version: '1.0.0'
+
+ #the enviroment the application is running in
+
+  environment: production
+  
+  database:
+    host: db.example.com
+    port: 5433
+    username: admin
+    password: sauserpassword
+
+
+  caching:
+   enabled: true
+   type: redis
+   ttl: 3600
+   
+  logging:
+    level: info
+    outputs:
+      - console
+      -  file
+    file :
+      path: /var/log/myapp.log
+      maxSize: 100m
+      maxfile: 5
+  api:
+    endpoint: https://api.example.com
+    timeout: 30000
+    retries: 3
+
+  features:
+   - name: newuserinterface
+     enabled: true
+     rolloutPercentage: 75
+  
+   - name: emon
+     enabled: true
+     rolloutPercentage: 67 
+
+     
+
+     # | litarel style
+     # > fold 
+     #--- in folder new file
+
+ ## typecustting    
+---
+
+interger: !!int 123
+float: !!float  123.454
+string: !!str  "hello world"
+boolean: !!bool true 
+ 
